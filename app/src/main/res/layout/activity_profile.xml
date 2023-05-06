@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/userProfileHeader"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnImgBack"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-170dp"
+                android:src="@drawable/previous" />
+
+            <TextView
+                android:id="@+id/lblError_2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:layout_marginTop="-40dp"
+                android:textAlignment="center"
+                android:textColor="#FBFBFB"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/btnImgMenu"
+                android:layout_width="30dp"
+                android:layout_marginTop="-29dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/open_menu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userProfileBody"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtLastName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtPhoneNumber"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtEmailAddress"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtBirthday"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Birthday (Optional)"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userProfileBottom"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#00c988"
+                android:layout_marginTop="20dp"
+                android:text="Submit Data" />
+
+            <Button
+                android:id="@+id/btnGoBack"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#00c988"
+                android:layout_marginTop="10dp"
+                android:text="Go Back" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
