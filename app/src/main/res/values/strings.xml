@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <string name="Qty10">Qty: 10</string>
+    <string name="Rs500">Rs 500</string>
+    <string name="BananaDesc">Price of 1k is Rs.50</string>
+    <string name="MangoDesc">Price of 1k is Rs.110</string>
+    <string name="CloveDesc">Price of 1k is Rs.90</string>
+    <string name="Qty5">Qty: 5</string>
+    <string name="Rs550">RS 550</string>
+    <string name="Qty1">Qty: 1</string>
+    <string name="Rs90">Rs 90</string>
+    <string name="ShoppingCart">Shopping Cart</string>
+    <string name="Checkout">Checkout</string>
+    <string name="ClearCart">Clear Cart</string>
+    <string name="SubTotal">Sub Total (Rs.) : </string>
+    <string name="Discount">Discount : </string>
+    <string name="Total">Total : </string>
+    <string name="subTot">1140</string>
+    <string name="none">-</string>
+    <string name="Spices">Spices</string>
+    <string name="Clove">Clove</string>
+    <string name="Fruits">Fruits</string>
+    <string name="Mango">Mango</string>
+    <string name="Vegetables">Vegitables</string>
+    <string name="Banana">Banana</string>
+
+</resources>
