@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmptyCart</string>
+    <string name="EmptyCart">Empty Cart</string>
+    <string name="YCE">Your Cart Is Empty!</string>
+    <string name="Menu">Back to Menu</string>
+    <string name="Paynow">Pay now</string>
+</resources>
